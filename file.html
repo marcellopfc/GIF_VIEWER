@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
 	<title>GIPHY GIF Viewer</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<div class="search-container">
+		<div class="search-wrapper">
+			<input type="text" id="search-input" placeholder="Search GIFs">
+			<button id="search-button"><i class="fas fa-search"></i></button>
+		</div>
+	</div>
 	<div id="gif-container">
 		<img id="current-gif" class="gif" src="">
 	</div>
-
 	<script src="script.js"></script>
 </body>
 </html>
